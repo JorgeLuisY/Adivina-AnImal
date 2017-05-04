@@ -21,6 +21,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".FinJuego" />
+        <activity android:name=".ContinuaJuego"></activity>
     </application>
 
 </manifest>

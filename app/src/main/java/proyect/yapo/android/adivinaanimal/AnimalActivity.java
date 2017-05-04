@@ -45,9 +45,13 @@ public class AnimalActivity extends AppCompatActivity {
                     }
 
                     texts.setText("¿ Es un "+ arbol.getCarga() + " ?");
+
                     if (btnyes(viev)){
                         finJuego();
                     }
+
+                    continua();
+
                 }
             }
         });
@@ -67,6 +71,11 @@ public class AnimalActivity extends AppCompatActivity {
     }
     public void question(){
         texts.setText("¿ Estas pensando en un animal ?");
+    }
+
+    public void continua(){
+        Intent i = new Intent(this,ContinuaJuego.class);
+        startActivity(i);
     }
 
 }

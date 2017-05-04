@@ -6,4 +6,8 @@
     <string name="msg_no">No</string>
 
     <string name="msg_question">¿ Estas pensando en un animal ?</string>
+    <string name="msg_question2">¿ Cual es el nombre del animal ?</string>
+
+    <string name="msg_save">Guardar</string>
+    <string name="msg_cancel">Cancelar</string>
 </resources>
